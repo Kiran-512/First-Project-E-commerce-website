@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #eee; */
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+
+}
+.container{
+    max-width: 1300px;
+    /* width: 100%; */
+    margin: auto;
+    /* padding: 0 25px; */
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{
+    text-decoration: none;
+    background-color: aqua;
+    display: inline-block;
+    margin:30px 0px;
+    padding:8px 30px;
+    border: blue 1px solid;
+    border-radius: 10px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background-color: #fff;
+    color:black;
+}
+
+header{
+    background: radial-gradient(#fff, #ffd6d6);
+
+}
+/* features category */
+.category .row{
+    margin-top: 70px;
+}
+.cateogory{
+    margin: 70px 0px;
+}
+.col-3{
+        flex-basis: 30%;
+        min-width: 250px;
+        margin-bottom: 30px;
+
+} 
+.col-3 img{
+    width: 100%;
+
+}
+.small-container{
+    width: 1080px;
+    margin: auto;
+    padding-right: 25px;
+    padding-left: 25px;
+
+}
