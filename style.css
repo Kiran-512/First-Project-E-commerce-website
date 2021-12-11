@@ -205,7 +205,7 @@ footer{
     color: #fff;
     font-size: 14px;
     padding: 30px 0 20px;
-    width: 98.825vw;
+    /* width: 98.825vw; */
 }
 footer p{
     color: #8a8a8a;
@@ -248,4 +248,40 @@ ul{
 .copyright{
     padding-top: 10px;
     text-align: center;
+}
+
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+@media only screen and (max-width:800px) {
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        /* opacity: 0.8; */
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 10px 50px 10px auto;
+    }
+    nav ul li a{
+        color: white;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+}
+ /*   ===  Media Query for width less than 600px ==   */
+@media only screen and (max-width:600px) {
+    .row{
+        text-align: center;   
+    }
 }
