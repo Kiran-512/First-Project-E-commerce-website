@@ -87,9 +87,7 @@ header .row{
 .category .row{
     margin-top: 70px;
 }
-.cateogory{
-    /* margin: 70px 0px; */
-}
+
 .col-3{
         flex-basis: 30%;
         min-width: 250px;
